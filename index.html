@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Tic Tac Toe</title>
+</head>
+<style>
+.game {
+	width: 600px;
+	height: 600px;	
+}
+.row {
+	display: flex;
+	flex-direction: row;
+	width: 600px;
+	height: 200px;
+}
+.box {
+	flex: 1;
+	border: 5px black solid;
+
+}
+</style>
+<body>
+<div class='body-wrapper'>
+	<div class="controls">
+		<h2 id='turn'>Turn: X</h2>
+		<button id="restart">Restart Game</button>
+		<h2 id='result'>Result: Game in progress</h2>
+	</div>
+	<div class='game'>
+		<div class='row'>
+			<div class='box'></div>
+			<div class='box'></div>
+			<div class='box'></div>
+		</div>
+		<div class='row'>
+			<div class='box'></div>
+			<div class='box'></div>
+			<div class='box'></div>
+		</div>
+		<div class='row'>
+			<div class='box'></div>
+			<div class='box'></div>
+			<div class='box'></div>
+		</div>
+	</div>
+</div>
+</body>
+<script src="index.js" type="text/javascript" charset="utf-8"></script>
+</html>
